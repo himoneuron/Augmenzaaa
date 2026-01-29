@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mcqplatform.mcq_backend.dto.AssessmentResultResponse;
 import com.mcqplatform.mcq_backend.dto.AssessmentSubmissionRequest; // Make sure you have this DTO!
+import com.mcqplatform.mcq_backend.dto.DashboardResponse;
 import com.mcqplatform.mcq_backend.entity.Question;
 import com.mcqplatform.mcq_backend.service.AssessmentService;
 
@@ -38,4 +39,10 @@ public class AssessmentController {
         AssessmentResultResponse result = service.calculateAndSave(request);
         return ResponseEntity.ok(result);
     }
+    // Add this to AssessmentController.java
+
+    @GetMapping("/dashboard")
+    public ResponseEntity<DashboardResponse> getDashboard() {
+    return ResponseEntity.ok(service.getDashboardData());
+}
 }

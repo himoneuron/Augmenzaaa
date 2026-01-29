@@ -14,7 +14,9 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
 
    // Fetch random questions for the test (H2 Syntax: RAND(), Postgres: RANDOM())
     // We use a safe trick for H2 (Development)
-    @Query(value = "SELECT * FROM questions ORDER BY RAND() LIMIT :limit", nativeQuery = true)
+    @Query(value = "SELECT * FROM questions ORDER BY RANDOM() LIMIT :limit", nativeQuery = true)
     List<Question> findRandomQuestions(@Param("limit") int limit);
 
+
+    
 }

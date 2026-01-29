@@ -6,6 +6,7 @@ import org.springframework.transaction.annotation.Transactional; // Import this
 
 import com.mcqplatform.mcq_backend.dto.AssessmentResultResponse;
 import com.mcqplatform.mcq_backend.dto.AssessmentSubmissionRequest;
+import com.mcqplatform.mcq_backend.dto.DashboardResponse;
 import com.mcqplatform.mcq_backend.entity.CandidateAssessment;
 import com.mcqplatform.mcq_backend.entity.Question;
 import com.mcqplatform.mcq_backend.repository.AssessmentRepository;
@@ -67,4 +68,23 @@ private final AssessmentRepository assessmentRepo;
                 .scorePercentage(score)
                 .build();
     }
+
+    // Add this to AssessmentService.java
+
+        public DashboardResponse getDashboardData() {
+        List<CandidateAssessment> allAssessments = assessmentRepo.findAll();
+    
+        long total = allAssessments.size();
+        long suspicious = allAssessments.stream().filter(CandidateAssessment::isSuspicious).count();
+        double avgScore = allAssessments.stream()
+            .mapToDouble(CandidateAssessment::getScore)
+            .average()
+            .orElse(0.0);
+            return DashboardResponse.builder()
+            .totalCandidates(total)
+            .suspiciousCount(suspicious)
+            .averageScore(Math.round(avgScore * 100.0) / 100.0) // Round to 2 decimals
+            .candidates(allAssessments)
+            .build();
+}
 }

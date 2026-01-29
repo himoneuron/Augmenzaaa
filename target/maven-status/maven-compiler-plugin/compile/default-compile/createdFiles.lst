@@ -1,0 +1,17 @@
+com\mcqplatform\mcq_backend\entity\CandidateAssessment$CandidateAssessmentBuilder.class
+com\mcqplatform\mcq_backend\dto\AssessmentResultResponse.class
+com\mcqplatform\mcq_backend\dto\DashboardResponse.class
+com\mcqplatform\mcq_backend\entity\CandidateAssessment.class
+com\mcqplatform\mcq_backend\entity\Question.class
+com\mcqplatform\mcq_backend\dto\AssessmentResultResponse$AssessmentResultResponseBuilder.class
+com\mcqplatform\mcq_backend\McqBackendApplication.class
+com\mcqplatform\mcq_backend\repository\QuestionRepository.class
+com\mcqplatform\mcq_backend\config\CorsConfig.class
+com\mcqplatform\mcq_backend\dto\AssessmentSubmissionRequest.class
+com\mcqplatform\mcq_backend\config\ThreadConfig.class
+com\mcqplatform\mcq_backend\dto\DashboardResponse$DashboardResponseBuilder.class
+com\mcqplatform\mcq_backend\DataEntry\DataSeeder.class
+com\mcqplatform\mcq_backend\controller\AssessmentController.class
+com\mcqplatform\mcq_backend\repository\AssessmentRepository.class
+com\mcqplatform\mcq_backend\entity\Question$QuestionBuilder.class
+com\mcqplatform\mcq_backend\service\AssessmentService.class

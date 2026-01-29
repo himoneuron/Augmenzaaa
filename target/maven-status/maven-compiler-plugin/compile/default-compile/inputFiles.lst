@@ -1,0 +1,13 @@
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\config\CorsConfig.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\config\ThreadConfig.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\controller\AssessmentController.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\DataEntry\DataSeeder.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\dto\AssessmentResultResponse.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\dto\AssessmentSubmissionRequest.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\dto\DashboardResponse.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\entity\CandidateAssessment.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\entity\Question.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\McqBackendApplication.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\repository\AssessmentRepository.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\repository\QuestionRepository.java
+C:\Users\Himanshu\Desktop\Augmenza\mcq-backend (1)\mcq-backend\src\main\java\com\mcqplatform\mcq_backend\service\AssessmentService.java
